@@ -1,0 +1,232 @@
+html{
+	background: #673181 url(../img/bg.jpg);
+}
+body{
+	margin: 0;
+	font-size: 11px;
+	font-family: MingLiU;
+}
+a{
+	color: #6e68b9;
+}
+#header{
+	height: 56px;
+	width: 100%;
+	background: url(../img/header.png) repeat-x;
+}
+#header_wraper{
+	margin:0 auto;
+	width: 839px;
+}
+	#header #logo{
+		padding-top:11px;
+	}
+	#header h1{
+		display: none;
+	}
+	#header span{
+		margin-top: 21px;
+		float: right;
+		color: #8f8f8f;
+		text-shadow: black 0px -1px 0px;
+	}
+	#header #language_text{
+		padding-left: 6px;
+		padding-right: 47px;
+		font-weight: bold;
+	}
+	#header #drop{
+		float: right;
+		padding-left: 7px;
+		padding-top: 5px;
+	}
+#body_wrapper{
+	width: 839px;
+	height: 329px;
+	margin: 0 auto;
+	margin-top: 164px;
+}
+#pic{
+	float: left;
+	height: 329px;
+	width: 520px;
+	background: url(../img/picture.png);
+}
+	#pic #signup{
+		position: absolute;
+		height: 121px;
+		width: 189px;
+		background: url(../img/button_normal.png);
+		margin-top: 210px;
+		margin-left: 333px;
+	}
+	#pic #signup:hover{
+		background: url(../img/button_hover.png);
+	}
+#hot,#new{
+	margin-top: 12px;
+	float: right;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#f0f0f0,endcolorstr=#dcdcdc,gradientType=0);
+	-ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#f0f0f0,endcolorstr=#dcdcdc,gradientType=0);/*IE8*/
+	background: #f0f0f0; /* 一些不支持背景渐变的浏览器 */
+	background:-moz-linear-gradient(top, #f0f0f0, #dcdcdc);
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#f0f0f0), to(#dcdcdc));
+	background:-o-linear-gradient(top, #f0f0f0, #dcdcdc);
+}
+#login{
+	float:right;
+	height: 110px;
+	width:	302px;
+	color: #9a989a;
+	text-shadow: white 0px 1px 0px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#fefefe,endcolorstr=#dedede,gradientType=0);
+	-ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#fefefe,endcolorstr=#dedede,gradientType=0);/*IE8*/
+	background: #efefef; /* 一些不支持背景渐变的浏览器 */
+	background:-moz-linear-gradient(top, #fefefe, #dedede);
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fefefe), to(#dedede));
+	background:-o-linear-gradient(top, #fefefe, #dedede);
+}
+	#login #name_tf,
+	#login #pass_tf
+	{
+	    border:2px solid #F7F9FA;
+	    -webkit-border-radius:3px;
+	    -moz-border-radius:3px;
+	    border-radius:3px;
+	    -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+	    -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+	    box-shadow:2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset;
+	    padding-left:3px;
+	}
+	#login #name_tf:focus,
+	#login #pass_tf:focus
+	{
+	    border:2px solid #f0f7fc;
+	    -moz-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+	    -webkit-box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+	    box-shadow:2px 3px 3px rgba(0, 0, 0, 0.04) inset, 0 0 1px #0d6db6 inset;
+		color:#333;
+	}
+	#login span{
+		margin-top:8px;
+		margin-left:3px;
+	}
+
+	#login #name_tf{
+		height:29px;
+		width: 276px;
+		margin-top: 13px;
+		margin-left: 13px;
+	}
+	#login #pass_tf{
+		height:29px;
+		width: 221px;
+		margin-left: 13px;
+		margin-top:6px;
+	}
+	#login button{
+		width: 50px;
+		height: 29px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		color:white;
+		font-weight:bold;
+		text-shadow: #039bd2 0px -1px 0px;
+		border: 1px solid #057ed0;
+		filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#32bdef,endcolorstr=#039bd2,gradientType=0);
+		-ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#32bdef,endcolorstr=#039bd2,gradientType=0);/*IE8*/
+		background: #32bdef; /* 一些不支持背景渐变的浏览器 */
+		background:-moz-linear-gradient(top, #32bdef, #039bd2);
+		background:-webkit-gradient(linear, 0 0, 0 bottom, from(#32bdef), to(#039bd2));
+		background:-o-linear-gradient(top, #32bdef, #039bd2)
+	}
+	#login button:hover{
+		filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#32bdef,endcolorstr=#32bdef,gradientType=0);
+		-ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#32bdef,endcolorstr=#32bdef,gradientType=0);/*IE8*/
+		background: #039bd2; /* 一些不支持背景渐变的浏览器 */
+		background:-moz-linear-gradient(top, #039bd2, #32bdef);
+		background:-webkit-gradient(linear, 0 0, 0 bottom, from(#039bd2), to(#32bdef));
+		background:-o-linear-gradient(top, #039bd2, #32bdef)
+	}
+	#login input[type='checkbox']{	
+		margin-top: 8px;
+		margin-left: 13px;
+	}
+#hot{
+	width:149px;
+	height:207px;
+}
+	#hot span{
+		position: absolute;
+		margin-top: 9px;
+		color: #a499aa;
+		text-shadow: #fbfbfb 0px 1px 0px;
+	}
+	#hot #hot_name{
+		margin-left: 14px;
+	}
+	#hot #hot_fans{
+		margin-left: 100px;
+	}
+	#hot ul{
+		list-style: none;
+		-webkit-padding-start: 0px;
+		margin-top: 12px;
+		margin-left: 0px;
+	}
+	#hot #user_list{
+		float: left;
+		margin-left: 15px;
+	}
+	#hot #fans_count{
+		color: #7d7b7c;
+		float: right;
+		margin-right: 15px;
+		text-align: right;
+	}
+	#hot li{
+		margin-top:0px;
+	}
+#new{
+	width: 141px;
+	height: 207px;
+	margin-left: 12px;
+}
+	#new span{
+		position: absolute;
+		margin-top: 9px;
+		margin-left: 14px;
+		color: #a499aa;
+		text-shadow: #fbfbfb 0px 1px 0px;
+	}
+	#new .new_user{
+		width: 35px;
+		height: 50px;
+		display: inline-block;
+		margin-bottom: 9px;
+		text-align: center;
+	}
+		#new  .new_user img{
+			border: 1px solid #e5e5e5;
+			padding: 1px;
+			background: #ffffff;
+			display: block;
+			margin-bottom: 4px;
+		}
+	#new #div_avatar{
+		height: 171px;
+		width: 120px;
+		position: absolute;
+		margin-top: 28px;
+		margin-left: 13px;
+	}
+#footer{
+	text-align:center;
+	margin-top: 125px;
+	color: #321442;
+	margin-bottom: 30px;
+}	
